@@ -1,0 +1,112 @@
+@font-face {
+  font-display: swap;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  object-fit: cover;
+}
+
+html {
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+body {
+  height: 100%;
+  padding: 218.5px 528px 219.5px 528px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Figtree", sans-serif;
+  background-color: #f4d04e;
+}
+
+.container {
+  width: 100%;
+  max-width: 384px;
+  height: 522px;
+  background-color: #ffffff;
+}
+
+.blog__contaier {
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+}
+
+.blog__image {
+  margin-bottom: 24px;
+}
+.blog__info {
+  width: 100%;
+}
+.blog__info__learn {
+  display: inline-block;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  border: 0 solid #f4d04e;
+  padding: 4px 12px 4px 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 800;
+  color: #111111;
+}
+.blog__info__day {
+  width: 143px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #111111;
+  margin-bottom: 12px;
+}
+.blog__info__title {
+  color: #111111;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.blog__info__text {
+  color: #7f7f7f;
+  margin-bottom: 24px;
+}
+.blog__bottom {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.blog__bottom__image {
+}
+.blog__bottom__title {
+}
